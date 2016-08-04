@@ -1,0 +1,6 @@
+- slbインスタンス作成
+- ecsで2台のWebサーバインスタンス作成
+  - apacheいれて
+  - `/var/www/html/`に`healthcheck.html`と`hostname.html`を作成した
+- slb側でlisterを設定し
+- またbackendサーバに2台のWebサーバを指定
